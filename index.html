@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-1-UTN</title>
+</head>
+<body>
+    <h1>Mi Formulario de Comentarios</h1>
+
+    <div>
+        <label for="text">ingrese su nombre</label>
+        <input type="text" id="text" name="username"> 
+    </div>
+
+    <div>
+        <label for="email">ingrese su email</label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+         <label for="password">ingrese su contraseña</label>
+         <input type="password" id="password" name="password">
+    </div>
+
+    <h2>Por favor marca todas las emociones que se apliquen a ti</h2>
+
+    <div>
+        <label>
+              Enojado
+              <input type="checkbox" name="emotions" checked value="Enojado">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Triste
+              <input type="checkbox" name="emotions" value="Triste">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Feliz
+              <input type="checkbox" name="emotions" value="Feliz">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Sentimientos Encontrados
+              <input type="checkbox" name="emotions" value="SE">
+        </label>
+    </div>
+
+    <h3>Que tan satisfecho(a) estuvo con nuestro servicio?</h3>
+
+     <div>
+        <label>
+              Muy satisfecho(a)
+              <input type="radio" name="emotions" checked value="1">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Satisfecho(a)
+              <input type="radio" name="emotions" value="2">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Me fue indiferente
+              <input type="radio" name="emotions" value="3">
+        </label>
+    </div>
+
+     <div>
+        <label>
+              Insatisfecho(a)
+              <input type="radio" name="emotions" value="4">
+        </label>
+    </div>
+
+    <div>
+        <label>
+              Muy Insatisfecho(a)
+              <input type="radio" name="emotions" value="5">
+        </label>
+    </div>
+    
+    <h4>Comentarios Adicionales</h4>
+    
+    <div>
+        <label for="foto">Foto de Perfil</label>
+        <input type="file" id="foto" name="foto">
+    </div>
+
+    <div>
+        <label for="locations">Lugar visitado</label>
+        <select name="locations" id="locations">
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Cancun">Cancun</option>
+            <option selected value="NA" disabled>No Seleccionado</option>
+        </select>
+    </div>
+    <br>
+    <br>
+
+    <button type="submit">Enviar</button>
+</body>
+</html>
